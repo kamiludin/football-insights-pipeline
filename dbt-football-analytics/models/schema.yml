@@ -1,0 +1,77 @@
+version: 2
+
+sources:
+  - name: football_2023
+    database: raw_data
+    schema: public
+    tables:
+      - name: bundesliga_league_table
+        columns:
+          - name: id
+            description: "This id represents the match_id"
+            data_tests:
+              - unique
+              - not_null          
+      - name: bundesliga_player_table
+        columns:
+          - name: id
+            description: "This id represents the player_id"
+            data_tests:
+              - unique
+              - not_null
+      - name: epl_league_table
+        columns:
+          - name: id
+            description: "This id represents the match_id"
+            data_tests:
+              - unique
+              - not_null
+      - name: epl_player_table
+        columns:
+          - name: id
+            description: "This id represents the player_id"
+            data_tests:
+              - unique
+              - not_null
+      - name: laliga_league_table
+        columns:
+          - name: id
+            description: "This id represents the match_id"
+            data_tests:
+              - unique
+              - not_null
+      - name: laliga_player_table
+        columns:
+          - name: id
+            description: "This id represents the player_id"
+            data_tests:
+              - unique
+              - not_null
+      - name: ligue1_league_table
+        columns:
+          - name: id
+            description: "This id represents the match_id"
+            data_tests:
+              - unique
+              - not_null
+      - name: ligue1_player_table
+        columns:
+          - name: id
+            description: "This id represents the player_id"
+            data_tests:
+              - unique
+              - not_null
+      - name: serie_a_league_table
+        columns:
+          - name: id
+            description: "This id represents the match_id"
+            data_tests:
+              - unique
+              - not_null
+      - name: serie_a_player_table
+        columns:
+          - name: id
+            description: "This id represents the player_id"
+            data_tests:
+              - unique
+              - not_null
