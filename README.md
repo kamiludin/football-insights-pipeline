@@ -6,8 +6,11 @@ This project showcases the seamless integration of modern data engineering tools
 ## Architecture 
 <img src="Diagram.jpg">
 
-## Directed Acyclic Graph (DAG) for Airflow
-<img src="Dag1.jpg">
+## DAG for Airflow (Extract and Load)
+<img src="airflow-dag.jpg">
+
+## DAG for Dbt (Only One Source/Table for Demonstration)
+<img src="dbt-dag.png">
 
 ## Simple Dashboard
 <img src="Dashboard.jpg">
