@@ -6,10 +6,10 @@ This project showcases the seamless integration of modern data engineering tools
 ## Architecture 
 <img src="Diagram.jpg">
 
-## DAG for Airflow (Extract and Load)
+## DAG in Airflow (Extract and Load)
 <img src="airflow-dag.jpg">
 
-## DAG for Dbt (Only One Source/Table for Demonstration)
+## Data Lineage in Dbt (Only One Source/Table for Demonstration)
 <img src="dbt-dag.png">
 
 ## Simple Dashboard
