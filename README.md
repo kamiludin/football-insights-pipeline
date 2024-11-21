@@ -6,8 +6,8 @@ This project showcases the seamless integration of modern data engineering tools
 ## Architecture 
 <img src="Diagram.jpg">
 
-## Directed Acyclic Graph (DAG)
-<img src="Dag.jpg">
+## Directed Acyclic Graph (DAG) for Airflow
+<img src="Dag1.jpg">
 
 ## Simple Dashboard
 <img src="Dashboard.jpg">
@@ -30,4 +30,4 @@ https://understat.com/
 
 
 ## Article About this Project 
-Medium Article - https://medium.com/@ahmadkamiludin/building-a-scalable-data-pipeline-for-amazon-products-with-mysql-google-cloud-dbt-and-looker-ee7f0e265be5
+Medium Article - https://medium.com/@ahmadkamiludin/data-driven-football-insights-from-web-scraping-to-visualization-using-airflow-dbt-cloud-and-c04735ac4133
